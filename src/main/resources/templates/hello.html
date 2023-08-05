@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org"><!-- ① -->
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Hello</title>
 </head>
 <body>
-
+  Hello, world! こんにちは
+  <span th:text="${name}"></span>さん!  <!-- ② -->
 </body>
 </html>
